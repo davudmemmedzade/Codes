@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    background-image: url(https://preview.colorlib.com/theme/taxa/img/banner/home-banner.png.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+.hero p{
+    font-size: 14px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.hero h1{
+    font-size: 120px;
+    color: white;
+    
+     font-family: "Playfair Display", serif;
+}
+.trip {
+    background-image: url(https://preview.colorlib.com/theme/taxa/img/cta-bg.png.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    
+    padding: 150px 40px 80px;
+
+}
+.trip_text h1{
+    color: black;
+    font-size: 50px;
+    
+}
+.trip_text p{
+    color:black ;
+    font-size: 15px;
+    margin: 40px 0;
+  
+}
+.trip_text button{
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 12;
+}
+.trip_text{
+    width: 40%;
+}

@@ -1,0 +1,30 @@
+/* h1{font-size: 40px;
+    color: blue;
+}
+.name{
+    font-size: 10px;
+    color: black;
+}
+p{
+    font-size: 20px;
+    color: blue;
+} */
+h4{
+    color: #7ea0ff;
+}
+h1{
+    color: #00095E;
+    font-size: 50px;
+}
+p{
+    color: #677F8B;
+    line-height: 28px;
+}
+button{
+    background-color:#FFC800;
+    color: white;
+}
+.test{
+    width: 30%;
+
+}

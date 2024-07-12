@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1400px;
+}
+
+a {
+    color: inherit;
+}
+
+.hero {
+
+    display: flex
+}
+
+.hero_text {
+    padding: 200px 0px 0px 150px;
+    width: 50%;
+}
+
+.hero_text h1 {
+    color: black;
+    font-size: 56px;
+}
+
+.hero_text p {
+    color: #6c757d;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.hero_text button {
+    color: white;
+    background-color: #0062cc;
+    font-size: 16px;
+    border-radius: 200px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.mission h2 {
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 40px;
+
+}
+
+.mission_text {
+    width: 30%;
+}
+
+.mission h3 {
+    font-size: 28px;
+
+}
+
+.mission p {
+    color: gray;
+    font-size: 16px;
+    padding: 30px 0px;
+    line-height: 26px;
+}
+
+.mission span i {
+    color: rgb(90, 184, 90);
+}
+
+.mission span {
+    color: gray;
+    font-size: 16px;
+    margin: 20px 0px 10px;
+    display: inline-block
+}
+
+.mission button {
+    background-color: #0062cc;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 25px;
+}
+
+.mission_content {
+    display: flex;
+}
+
+.blogs {
+    padding: 40px 80px 70px;
+}
+
+.blog_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs h1 {
+    color: black;
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.blogs h2 {
+    color: black;
+    font-size: 30px;
+    margin: 20px 0px 10px;
+}
+
+.blogs ul {
+    color: #b3b3b3;
+    font-size: 15px;
+    display: flex;
+}
+
+.blog ul li {
+    margin-right: 10px;
+}
+
+.blogs span {
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+.blogs p {
+    color: gray;
+    font-size: 16px;
+    margin: 20px 0px;
+
+
+}
+
+.blogs a {
+    color: #007bff;
+    font-size: 16px;
+}
+
+
+.blog {
+    border: 2px solid red;
+
+    width: 30%;
+
+}
+
+.blog img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+header h3 a {
+    font-size: 32px;
+    color: black;
+}
+
+header span {
+    color: #007bff;
+}
+
+.forms {
+    background-image: url(https://preview.colorlib.com/theme/imagine/images/hero_1.jpg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding:30px 0 70px;
+}
+
+.form {
+    background: white;
+    padding: 30px;
+    text-align: left;
+}
+
+.firstlast {
+    display: flex;
+    gap: 20px;
+}
+.forms h2{
+    color: white;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.form legend{
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.form label{
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+   
+}
+.form input{
+    margin:10px 0;
+    height: 43px;
+    border:1px solid #ced4da ;
+    width: 100%;
+    padding-left: 10px;
+}
+textarea{
+    border:1px solid #ced4da ;
+    margin:10px 0;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+.form button{
+    background-color: #007bff;
+   border-radius: 30%; 
+   cursor:pointer ;
+   text-align: left;
+   padding: 12px 27px;
+   border: none;
+   color: white;
+}
+footer{
+    padding:70px ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:30px ;
+   
+}
+footer ul{
+    display: flex;
+    gap: 40px;
+    color:#0062cc ;
+}
+footer p{
+    color: #b3b3b3;
+}
+
+.communicate .communicate_item {
+    display: flex;
+}
+
+.communication h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.communication p {
+    color: gray;
+    font-size: 16px;
+}
+
+.something_content {
+    text-align: center;
+}
+
+.something_image {
+    margin: 70px 30px 10px;
+    width: 30%;
+}
+
+.something_content h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.something_content p {
+    color: gray;
+    font-size: 20px;
+}
+
+.something_container {
+    margin: 0px 30px;
+    width: 30%;
+}
+
+.something_container span {
+    color: #4285f4;
+    font-size: 12px;
+}
+
+.something_container p {
+    color: gray;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.all {
+    display: flex;
+}
+
+.features {
+    position: relative;
+}
+
+.feature_head {
+    text-align: center;
+
+
+}
+
+.feature_head h1 {
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.feature_head p {
+    color: gray;
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.feature_body {
+    border: 2px solid none;
+    background-color: #b3b3b3;
+    width: 30%;
+    margin: 50px 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feature_body i {
+    background-color:#4285f4;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 325px;
+    top: 150px;
+}
+
+.feature_content h3 {
+    color: black;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.feature_body p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 5px;
+}
+.feature_body a{
+    color: #4285f4;
+}

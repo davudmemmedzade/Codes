@@ -1,0 +1,31 @@
+
+
+button{
+    color: white;
+    background-color:#1fb6fc ;
+     border-top-left-radius:50px ;
+     border-top-right-radius:50px ;
+     border-bottom-right-radius:50px ;
+     font-size: 14px;
+     padding: 20px 30px;
+     border: none;
+}
+
+
+h1{
+    font-size: 40px;
+    color: #1fb6fc;
+}
+sup{
+    color:#aebbdb ;
+}
+i{
+    color: #1fb6fc;
+}
+span{
+    color: #2a3a60;
+}
+.profession{
+    color: #88879e;
+}
+text-align-center

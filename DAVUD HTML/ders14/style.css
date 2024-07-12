@@ -1,0 +1,46 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    text-decoration : none;
+    list-style : none;
+}
+.text{
+    text-align: center;
+}
+.item_area{
+    border: 2px solid red;
+    height: 50vh;
+    width: 40vw;
+    background-color: burlywood;
+    position: relative;
+    margin: 0 auto;
+   
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    border-radius: 7px;
+}
+ .item1{
+    background-color: aqua;
+    left: 20px;
+    top: 20px;
+}
+ .item2{
+    background-color: purple ;
+    left: 120px;
+    top: 70px;
+    z-index: 1;
+}
+ .item3{
+    background-color: yellow;
+   left: 220px;
+    top: 10px; 
+}
